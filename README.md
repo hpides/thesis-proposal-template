@@ -2,13 +2,13 @@
 
 This is the proposal template for writing a thesis at our group.
 It is a very basic template that tries not to restrict you but lets you focus on writing.
-Here is just a short list of things that you need to do:
+
 
 ### How to Use the Template
-The template consists of the main `thesis.tex` file, a folder for the individual sections, and a folder for the images that you use.
+The template consists of the main `proposal.tex` file, a folder for the individual sections, and a folder for the images that you use.
 It contains only very basic packages, so it should probably work with most Latex distributions and Overleaf.
 
-In the `thesis.tex` file, you can set a few variables at the beginning of the file that then fill your cover page.
+In the `proposal.tex` file, you can set a few variables at the beginning of the file that then fill your cover page.
 
 You can always find the newest version of this template in our [GitHub repository](https://github.com/hpides/thesis-proposal-template).
 
