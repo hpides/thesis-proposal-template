@@ -10,7 +10,7 @@ It contains only very basic packages, so it should probably work with most Latex
 
 In the `thesis.tex` file, you can set a few variables at the beginning of the file that then fill your cover page.
 
-You can always find the newest version of this template in our [GitHub repository]()
+You can always find the newest version of this template in our [GitHub repository](https://github.com/hpides/thesis-proposal-template).
 
 
 ### Questions
