@@ -1,0 +1,79 @@
+\documentclass[a4paper, titlepage, 12pt]{article}
+\usepackage[left=3cm, right=3cm, top=4cm, bottom=4cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{color}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{array}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage[square,sort,comma,numbers]{natbib}
+
+% SET YOUR DATA HERE
+% This is a preliminary title for your thesis.
+\newcommand{\thesisTitle}{My Thesis' Title}
+
+% Your full name.
+\newcommand{\name}{John Doe}
+
+% The time frame in which you want to write the thesis.
+\newcommand{\timeFrame}{January 2020 - July 2020}
+
+% The primary supervisor. You probably do not need to change this.
+\newcommand{\supervisor}{Prof. Dr. Tilmann Rabl}
+
+% The name(s) of your advisor(s). This is probably the PhD student or PostDoc that you are working with.
+\newcommand{\advisor}{Name of Advisor\\Second Advisor (if there is one)}
+
+% Select if this is a Bachelor or Master Thesis.
+\newcommand{\thesisType}{Bachelor/Master}
+
+
+\newcommand\todo[1]{\colorbox{yellow}{#1}}
+\setlength{\bibsep}{0.0pt}
+
+\begin{document}
+
+\begin{titlepage}
+\begin{center}
+\LARGE{\textbf{Hasso Plattner Institute}}\\
+\normalsize{Chair for Data Engineering Systems}\\[0.3cm]
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.3\linewidth]{images/hpi_logo.jpg}
+\end{figure}
+\vspace{1cm}
+
+\LARGE{Proposal {\thesisType} Thesis}\\[0.7cm]
+\Huge{\textbf{\thesisTitle}}
+
+\vspace{1cm} 
+
+\Large{\textbf{\name}} \\[3pt]  
+\vspace{0.5cm}
+\large{Time frame: \timeFrame} \\ 
+
+\vspace{1cm}
+
+\large{\textbf{Supervisor}}\\
+\supervisor\\
+\vspace{0.5cm}
+\textbf{Advisor}\\
+\advisor\\
+\end{center}
+\end{titlepage}
+
+\input{sections/1_motivation}
+\input{sections/2_goal}
+\input{sections/3_approach}
+\input{sections/4_related-work}
+\input{sections/5_project-plan}
+
+\clearpage
+\bibliographystyle{plain}
+{\small 
+\bibliography{references}
+}
+
+\end{document}
