@@ -20,4 +20,3 @@ You can always find the newest version of this template in our [GitHub repositor
 
 ### Questions
 If you want to write a thesis at our group, check out our [thesis page](https://hpi.de/rabl/teaching/master-theses/general-theses-information.html).
-If you have any questions about this template, feel free to [reach out](https://hpi.de/rabl/team.html).
